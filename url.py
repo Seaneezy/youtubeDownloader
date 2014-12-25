@@ -5,7 +5,6 @@
 # determine if the URL is YOUTUBE  URL
 def validate(url):
     if url.count("youtu",0,len(url))==1:
-        if url.count(".com",0,len(url))==1:
             url = 1
     return url
 
