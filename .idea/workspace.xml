@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73cf6460-3981-444a-8efb-9de4559f5ea3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YTgui.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YTpickle.py" afterPath="$PROJECT_DIR$/YTpickle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YTgui.py" afterPath="$PROJECT_DIR$/YTgui.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/url.py" afterPath="$PROJECT_DIR$/url.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youtubedownloader.py" afterPath="$PROJECT_DIR$/youtubedownloader.py" />
     </list>
     <ignored path="youtubeDownloader.iws" />
@@ -65,8 +63,8 @@
       <file leaf-file-name="youtubedownloader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/youtubedownloader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="765">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -77,10 +75,12 @@
       <file leaf-file-name="YTgui.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YTgui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64224875" vertical-offset="508" max-vertical-offset="1095">
-              <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+            <state vertical-scroll-proportion="-0.25" vertical-offset="141" max-vertical-offset="525">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#179#670#0" expanded="false" />
+                <element signature="e#754#1387#0" expanded="false" />
+                <element signature="e#1471#1791#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -390,7 +390,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="705" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="705" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -398,7 +398,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3300813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -429,7 +429,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -600,16 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youtubedownloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19250426" vertical-offset="15517" max-vertical-offset="58560">
@@ -618,12 +608,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YTgui.py">
+    <entry file="file://$PROJECT_DIR$/youtubedownloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64224875" vertical-offset="508" max-vertical-offset="1095">
-          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="765">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YTgui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.25" vertical-offset="141" max-vertical-offset="525">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#179#670#0" expanded="false" />
+            <element signature="e#754#1387#0" expanded="false" />
+            <element signature="e#1471#1791#0" expanded="false" />
           </folding>
         </state>
       </provider>

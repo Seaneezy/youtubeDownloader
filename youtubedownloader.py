@@ -23,8 +23,8 @@ if OS=="Darwin":
             os.makedirs("/Users/"+user+"/Desktop/YTvideos")
         print("Now downloading: "+video.title+", In Desktop/YTvideos")
         filename=best.download(filepath="/Users/"+user+"/Desktop/YTvideos/"+video.title + "." +best.extension,quiet=False)
-else:
-    print("Invalid URL.")
+    else:
+        print("Invalid URL.")
 print(filename)
 
 

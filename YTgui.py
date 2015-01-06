@@ -27,7 +27,7 @@ def download(n):
     best=vid.getbest()
     if not os.path.exists("/Users/"+user+"/Desktop/YTvideos"):
         os.makedirs("/Users/"+user+"/Desktop/YTvideos")
-    dloadLabel=Label(root,text="Now downloading: "+vid.title+", In Desktop/YTvideos",fg="cyan")
+    dloadLabel=Label(root,text="Now downloading: "+vid.title+", In Desktop/YTvideos",fg="blue")
     dloadLabel.grid(row=5,columnspan=5)
     #filename=best.download(filepath="/Users/"+user+"/Desktop/YTvideos/"+vid.title + "." +best.extension,quiet=False)
     #progressLabel=Label(root,text=best.download(filepath="/Users/"+user+"/Desktop/YTvideos/"+vid.title + "." +best.extension,quiet=False))
