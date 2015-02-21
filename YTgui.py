@@ -29,7 +29,7 @@ def download(n):
         os.makedirs("/Users/"+user+"/Desktop/YTvideos")
     dloadLabel=Label(root,text="Now downloading: "+vid.title+", In Desktop/YTvideos",fg="blue")
     dloadLabel.grid(row=5,columnspan=5)
-    #filename=best.download(filepath="/Users/"+user+"/Desktop/YTvideos/"+vid.title + "." +best.extension,quiet=False)
+    filename=best.download(filepath="/Users/"+user+"/Desktop/YTvideos/"+vid.title + "." +best.extension,quiet=False)
     #progressLabel=Label(root,text=best.download(filepath="/Users/"+user+"/Desktop/YTvideos/"+vid.title + "." +best.extension,quiet=False))
     #progressLabel.grid(row=6,columnspan=5)
 #loadTitle is exclusive to this program because of entryData

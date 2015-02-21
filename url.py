@@ -5,7 +5,8 @@
 # determine if the URL is YOUTUBE  URL
 def validate(url):
     if url.count("youtu",0,len(url))==1:
-            url = 1
+        if url.count(".",0,len(url))==1:
+            url=1
     return url
 
 n=input("Enter valid URL: ")
@@ -20,6 +21,7 @@ if val==1:
             print(n[nv2+4:])
 else:
     print("That is not a valid URL. Please enter a valid YouTube URL like youtube.com/watch?v= or youtu.be/")
+
 
 #print "youtube" within a valid url
     #nv3=n.find("youtube")
